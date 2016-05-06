@@ -136,9 +136,6 @@ OSULP-Admin:
       title: Department Head
       classification: Associate Professor
 
-
-      fundstatus: higher
-
   - AUL-LE:
     org: Learning & Engagement
     name: Cheryl Middleton
@@ -156,8 +153,5 @@ OSULP-Admin:
       email: brooke.robertshaw@oregonstate.edu
       title: Assessment Librarian
       classification: Assistant Professor
-
-
-
 
 ...
