@@ -9,6 +9,10 @@ default: &default
   pool: 5
   timeout: 5000
 
+staging:
+  <<: *default
+  database: db/staging.sqlite3
+
 development:
   <<: *default
   database: db/development.sqlite3
