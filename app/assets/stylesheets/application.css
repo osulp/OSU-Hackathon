@@ -24,10 +24,35 @@
  *= require style
  */
 
+header > .logo {
+  position: fixed;
+  font-family: 'Lato', sans-serif !important;
+}
 
-header > .logo { position: fixed; font-family: 'Lato', sans-serif; }
-.left-side { position: fixed !important; }
-.skin-black .logo { background-color: #C34500 !important; }
-.skin-black .left-side { background-color: #385E86 !important; }
+.left-side {
+  position: fixed !important;
+}
 
-.new-request { cursor: pointer; }
+.skin-black .logo {
+  background-color: #C34500 !important;
+}
+
+.skin-black .left-side {
+  background-color: #385E86 !important;
+}
+
+.skin-black .left-side {
+  background-color: #CC662E !important;
+}
+
+.skin-black .sidebar > .sidebar-menu > li > a:hover,
+.skin-black .sidebar > .sidebar-menu > li.active > a {
+  background: #CC662E !important;
+}
+
+.skin-black .sidebar {
+    border-bottom: 1px solid #CC662E !important;
+  }
+.new-request {
+  cursor: pointer;
+}
