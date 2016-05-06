@@ -31,4 +31,31 @@ ActiveRecord::Schema.define(version: 20160506154935) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
+  create_table "approvals", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "departments", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "requests", force: :cascade do |t|
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.string   "conference"
+    t.integer  "telephone_number"
+    t.string   "destination_city"
+    t.datetime "dates"
+    t.text     "reason"
+    t.boolean  "webinar"
+    t.text     "attendance_goals"
+  end
+
+  create_table "user_types", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end
