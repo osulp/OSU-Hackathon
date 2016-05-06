@@ -7,6 +7,7 @@ class RequestController < ApplicationController
 
   def new
     @request = Request.new
+    @department = Yaml.load(Rails.root.join("orgchart.yml"))
   end
 
   def show
@@ -19,6 +20,10 @@ class RequestController < ApplicationController
 
   def approve_requests
     @request=Request.find(params[:id])
+    if current_user.role == "Manager"
+      @request.state == "Budget"
+    else
+    end
     redirect_to request_index_path
   end
 

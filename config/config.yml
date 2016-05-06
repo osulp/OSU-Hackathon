@@ -1,0 +1,4 @@
+rubycas:
+  cas_base_url: https://login.oregonstate.edu/cas
+  validate_url: https://login.oregonstate.edu/cas/samlValidate
+  cas_destination_logout_param_name: url
