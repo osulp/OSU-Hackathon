@@ -1,0 +1,107 @@
+---
+# Org Chart of OSULP
+
+OSULP-Admin:
+  org: Oregon State University Libraries and Press Administration
+  name: Faye Chadwell
+  email: faye.chadwell@oregonstate.edu
+  title: Donald & Delpha Campbell University Librarian & OSU Press Director
+  classification: Professor
+
+  - name: Don Frier
+    email: don.frier@oregonstate.edu
+    title: Executive Assistant to the University Librarian
+    classification: Professional Faculty
+
+  - name: Korey Jackson
+    email: korey.jackson@oregonstate.edu
+    title: Gray Family Chair for Innovative Library Services
+    classification: Professional Faculty
+
+  - name: Daniel Moret
+    email: daniel.moret@oregonstate.edu
+    title: Communications Specialist
+    classification: Professional Faculty
+
+  - OSU-Press:
+    org: Oregon State Universitiy Press
+    name: Tom Booth
+    email: thomas.booth@oregonstate.edu
+    title: Associate Director
+    classification: Professional Faculty
+
+  - AUL-RSC:
+    org: Research & Scholarly Communication
+    name: Vacant
+    email:
+    title: Associate University Librarian for Research & Scholarly Communication
+    classification: Associate Professor
+
+    - ETS:
+      org: Emerging Technologies and Services
+      name: Margaret Mellinger
+      email: margaret.mellinger@oregonstate.edu
+      title: Director
+      classification: Associate Professor
+      
+      - name: Mike Eaton
+        email: michael.eaton@oregonstate.edu
+        title: User Experience Manager
+        classification: Professional Faculty
+
+      - name: Josh Gum
+        email: josh.gum@oregonstate.edu
+        title: Analyst Programmer III
+        classification: Classified
+
+      - name: Gregorio German Luis Ramirez
+        email: Gregorio.LuisRamirez@oregonstate.edu
+        title: Analyst Programmer II
+        classification: Classified
+
+      - name: Brandon Straley
+        email: brandon.straley@oregonstate.edu
+        title: Analyst Programmer II
+        classification: Classified
+
+      - name: Ryan Wick
+        email: ryan.wick@oregonstate.edu
+        title: Analyst Programmer I
+        classification: Classified
+
+    - SCARC:
+      org: Special Collections and Archives Research Center
+      name: Larry Landis
+      email: larry.landis@oregonstate.edu
+      title: Director
+      classification: Professional Faculty
+
+    - CDSS:
+      org: Center for Digital Scholarship & Services
+      name: Michael Boock
+      email: michael.boock@oregonstate.edu
+      title: Department Head
+      classification: Associate Professor
+
+  - AUL-LE:
+    org: Learning & Engagement
+    name: Cheryl Middleton
+    email: cheryl.middleton@oregonstate.edu
+    title: Associate University Librarian for Learning & Engagement
+    classification: Associate Professor
+
+    - LEAD:
+
+    - TED:
+
+    - Guin:
+
+    - name: M. Brooke Robertshaw
+      email: brooke.robertshaw@oregonstate.edu
+      title: Assessment Librarian
+      classification: Assistant Professor
+
+
+
+
+...
