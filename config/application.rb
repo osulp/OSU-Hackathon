@@ -24,6 +24,8 @@ module Hackathon
     config.active_record.raise_in_transactional_callbacks = true
 
     ::APPLICATION_CONFIG = YAML.load_file(Rails.root.join('config/config.yml')) || {}
+
     config.rubycas.cas_base_url = APPLICATION_CONFIG["rubycas"]["cas_base_url"]
+
   end
 end

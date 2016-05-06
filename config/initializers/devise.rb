@@ -266,8 +266,7 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.cas_base_url = APPLICATION_CONFIG["rubycas"]["cas_base_url"]
-  config.cas_validate_url = APPLICATION_CONFIG["rubycas"]
-  ["validate_url"]
+  config.cas_validate_url = APPLICATION_CONFIG["rubycas"]["validate_url"]
   config.cas_logout_url_param = 'follow'
   config.cas_destination_logout_param_name = 'url'
 end

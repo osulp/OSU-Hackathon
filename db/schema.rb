@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160506165012) do
+ActiveRecord::Schema.define(version: 20160506190718) do
 
   create_table "approvals", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 20160506165012) do
     t.datetime "updated_at",                          null: false
     t.string   "username"
     t.integer  "department_id"
+    t.string   "display_name"
   end
 
   add_index "users", ["department_id"], name: "index_users_on_department_id"
