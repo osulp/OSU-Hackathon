@@ -3,17 +3,26 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  protected
+  # protected
 
+  alias_method :devise_current_user, :current_user
   def current_user
-    return @current_user if @current_user
-    unless current_user_username.blank?
-      @current_user = User.new(current_user_username, current_user_extra_attributes)
+    if params[:user_id].blank?
+      devise_current_user
+    else
+      User.find_by_username(params[:username])
     end
-    @current_user
   end
-  helper_method :current_user
 
+  # def current_user
+  #   return @current_user if @current_user
+  #   unless current_user_username.blank?
+  #     @current_user = User.new(current_user_username, current_user_extra_attributes)
+  #   end
+  #   @current_user
+  # end
+  # helper_method :current_user
+  #
   private
 
   def current_user_username
