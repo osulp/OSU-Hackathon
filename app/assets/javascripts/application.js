@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery-ui-1.10.3
+//= require bootstrap
+//= require plugins/daterangepicker/daterangepicker
+//= require plugins/chart
+//= require plugins/iCheck/icheck
+//= require plugins/fullcalendar/fullcalendar
