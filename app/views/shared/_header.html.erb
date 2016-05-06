@@ -4,13 +4,6 @@
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top" role="navigation">
-    <!-- Sidebar toggle button-->
-    <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </a>
     <div class="navbar-right">
       <ul class="nav navbar-nav">
         <!-- Messages: style can be found in dropdown.less-->
@@ -23,66 +16,46 @@
             </a>
           <% end %>
           <ul class="dropdown-menu">
-
-                <li class="header">You have 4 messages</li>
-
-            
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: hidden; width: 100%; height: 200px;">
-
-                    <li><!-- start message -->
-
-                        <a href="#">
-                          <div class="pull-left">
-                            <%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>
-                          </div>
-                          <h4>
-                            Support Team
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                          <small class="pull-right"><i class="fa fa-clock-o"></i> 5 mins</small>
-                        </a>
-                    </li><!-- end message -->
-
-                    
-                    <li>
+            <li class="header">You have 4 messages</li>
+            <li>
+              <!-- inner menu: contains the actual data -->
+              <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: hidden; width: 100%; height: 200px;">
+                  <li>
                     <a href="#">
                       <div class="pull-left">
                         <%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>
                       </div>
                       <h4>
-                        Director Design Team
+                        Derek Whiteside
 
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                      <small class="pull-right"><i class="fa fa-clock-o"></i> 2 hours</small>
+                      <p>Trip to the MOON!</p>
+                      <small class="pull-right"><i class="fa fa-clock-o"></i> Yesterday</small>
                     </a>
                   </li>
+                  <li><!-- start message -->
+                    <a href="#">
+                      <div class="pull-left">
+                        <%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>
+                      </div>
+                      <h4>
+                        Michael Eaton
+                      </h4>
+                      <p>Iceland Trip</p>
+                      <small class="pull-right"><i class="fa fa-clock-o"></i> 5 mins</small>
+                    </a>
+                  </li><!-- end message -->
                   <li>
                     <a href="#">
                       <div class="pull-left">
                         <%= image_tag("avatar.png", :alt => "user image", :class => "img-circle") %>
                       </div>
                       <h4>
-                        Developers
+                        Don Frier
 
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>VEEGGAAASSS!!</p>
                       <small class="pull-right"><i class="fa fa-clock-o"></i> Today</small>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>
-                      </div>
-                      <h4>
-                        Sales Department
-
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                      <small class="pull-right"><i class="fa fa-clock-o"></i> Yesterday</small>
                     </a>
                   </li>
                   <li>
@@ -103,75 +76,75 @@
             <li class="footer"><a href="#">See All Messages</a></li>
           </ul>
         </li>
-        <!--<li class="dropdown tasks-menu">-->
-          <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">-->
-            <!--<i class="fa fa-tasks"></i>-->
-            <!--<span class="label label-danger">9</span>-->
-          <!--</a>-->
-          <!--<ul class="dropdown-menu">-->
-            <!--<li class="header">You have 9 tasks</li>-->
-            <!--<li>-->
-              <!--&lt;!&ndash; inner menu: contains the actual data &ndash;&gt;-->
-              <!--<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: hidden; width: 100%; height: 200px;">-->
-                  <!--<li>&lt;!&ndash; Task item &ndash;&gt;-->
-                    <!--<a href="#">-->
-                      <!--<h3>-->
-                        <!--Design some buttons-->
-                        <!--<small class="pull-right">20%</small>-->
-                      <!--</h3>-->
-                      <!--<div class="progress progress-striped xs">-->
-                        <!--<div class="progress-bar progress-bar-success" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">-->
-                          <!--<span class="sr-only">20% Complete</span>-->
-                        <!--</div>-->
-                      <!--</div>-->
-                    <!--</a>-->
-                  <!--</li>&lt;!&ndash; end task item &ndash;&gt;-->
-                  <!--<li>&lt;!&ndash; Task item &ndash;&gt;-->
-                    <!--<a href="#">-->
-                      <!--<h3>-->
-                        <!--Create a nice theme-->
-                        <!--<small class="pull-right">40%</small>-->
-                      <!--</h3>-->
-                      <!--<div class="progress progress-striped xs">-->
-                        <!--<div class="progress-bar progress-bar-danger" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">-->
-                          <!--<span class="sr-only">40% Complete</span>-->
-                        <!--</div>-->
-                      <!--</div>-->
-                    <!--</a>-->
-                  <!--</li>&lt;!&ndash; end task item &ndash;&gt;-->
-                  <!--<li>&lt;!&ndash; Task item &ndash;&gt;-->
-                    <!--<a href="#">-->
-                      <!--<h3>-->
-                        <!--Some task I need to do-->
-                        <!--<small class="pull-right">60%</small>-->
-                      <!--</h3>-->
-                      <!--<div class="progress progress-striped xs">-->
-                        <!--<div class="progress-bar progress-bar-info" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">-->
-                          <!--<span class="sr-only">60% Complete</span>-->
-                        <!--</div>-->
-                      <!--</div>-->
-                    <!--</a>-->
-                  <!--</li>&lt;!&ndash; end task item &ndash;&gt;-->
-                  <!--<li>&lt;!&ndash; Task item &ndash;&gt;-->
-                    <!--<a href="#">-->
-                      <!--<h3>-->
-                        <!--Make beautiful transitions-->
-                        <!--<small class="pull-right">80%</small>-->
-                      <!--</h3>-->
-                      <!--<div class="progress progress-striped xs">-->
-                        <!--<div class="progress-bar progress-bar-warning" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">-->
-                          <!--<span class="sr-only">80% Complete</span>-->
-                        <!--</div>-->
-                      <!--</div>-->
-                    <!--</a>-->
-                  <!--</li>&lt;!&ndash; end task item &ndash;&gt;-->
-                <!--</ul><div class="slimScrollBar" style="width: 3px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 5px; z-index: 99; right: 1px; background: rgb(0, 0, 0);"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 5px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div></div>-->
-            <!--</li>-->
-            <!--<li class="footer">-->
-              <!--<a href="#">View all tasks</a>-->
-            <!--</li>-->
-          <!--</ul>-->
-        <!--</li>-->
+        <li class="dropdown tasks-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-tasks"></i>
+            <span class="label label-danger">4</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="header">You have 4 tasks</li>
+            <li>
+              <!-- inner menu: contains the actual data -->
+              <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: hidden; width: 100%; height: 200px;">
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Derek Whiteside's Trip to the Moon
+                        <small class="pull-right">10%</small>
+                      </h3>
+                      <div class="progress progress-striped xs">
+                        <div class="progress-bar progress-bar-info" style="width: 10%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">10% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li><!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Michael Eaton's Trip to Iceland
+                        <small class="pull-right">20%</small>
+                      </h3>
+                      <div class="progress progress-striped xs">
+                        <div class="progress-bar progress-bar-success" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li><!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Don Frier's Trip to Vegas
+                        <small class="pull-right">90%</small>
+                      </h3>
+                      <div class="progress progress-striped xs">
+                        <div class="progress-bar progress-bar-danger" style="width: 90%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">90% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li><!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Approval Request
+                        <small class="pull-right">10%</small>
+                      </h3>
+                      <div class="progress progress-striped xs">
+                        <div class="progress-bar progress-bar-warning" style="width: 10%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">10% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li><!-- end task item -->
+                </ul><div class="slimScrollBar" style="width: 3px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 5px; z-index: 99; right: 1px; background: rgb(0, 0, 0);"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 5px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div></div>
+            </li>
+            <li class="footer">
+              <a href="#">View all tasks</a>
+            </li>
+          </ul>
+        </li>
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -181,7 +154,6 @@
               <% else %>
               <span><%= current_user.display_name %> <i class="caret"></i></span>
             <% end %>
-
           </a>
           <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
             <li class="dropdown-header text-center">Account</li>
