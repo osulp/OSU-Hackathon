@@ -1,0 +1,10 @@
+<h1>Here are all requests!</h1>
+<% if @requests.empty? %>
+  <p> No requests found </p>
+<% else %>
+  <% @requests.each do |request| %>
+    <p><%= request.conference %></p>
+  <% end%>
+<% end %>
+
+<%= link_to "New Travel Request", new_request_path %>
