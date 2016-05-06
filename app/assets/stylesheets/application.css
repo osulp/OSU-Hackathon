@@ -25,7 +25,7 @@
  */
 
 
-header > .logo { position: fixed; }
+header > .logo { position: fixed; font-family: 'Lato', sans-serif; }
 .left-side { position: fixed !important; }
-.skin-black .logo { background-color: #C34500; }
-.skin-black .left-side { background-color: #385E86; }
+.skin-black .logo { background-color: #C34500 !important; }
+.skin-black .left-side { background-color: #385E86 !important; }
