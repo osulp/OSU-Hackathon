@@ -1,3 +1,10 @@
-<h1>Hello Hackathon People</h1>
-<p>This is the barest of views</p>
-<%= link_to "View all requests", request_index_path %>
+<% if current_user.blank? %>
+  <h1>Welcome</h1>
+  <a href="/users/sign_in">Login</a>
+<% else %>
+  <h1>Hello Hackathon People</h1>
+  <p>This is the barest of views</p>
+  <%= link_to "View all requests", request_index_path %>
+<% end %>
+
+
