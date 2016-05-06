@@ -76,6 +76,11 @@ OSULP-Admin:
       title: Director
       classification: Professional Faculty
 
+      - name: Ryan Wick
+        email: ryan.wick@oregonstate.edu
+        title: Analyst Programmer I
+        classification: Classified
+
     - CDSS:
       org: Center for Digital Scholarship & Services
       name: Michael Boock
