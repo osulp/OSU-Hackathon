@@ -33,6 +33,9 @@ gem 'passenger'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+# Simple Form for SIMPLE FORMS
+  gem 'simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,1 +1,12 @@
 NEW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+<%= simple_form_for @request, :url => "/request/#{@request.id}" do |f| %>
+  <%= f.input :conference %>
+  <%= f.input :telephone_number %>
+  <%= f.input :destination_city %>
+  <%= f.input :dates %>
+  <%= f.input :reason %>
+  <%= f.input :webinar %>
+  <%= f.input :attendance_goals %>
+  <%= f.button :submit %>
+<% end %>
