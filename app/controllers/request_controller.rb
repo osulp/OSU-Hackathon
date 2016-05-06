@@ -1,3 +1,5 @@
+require 'yaml'
+
 class RequestController < ApplicationController
   respond_to :html, :json
 
@@ -7,6 +9,7 @@ class RequestController < ApplicationController
 
   def new
     @request = Request.new
+    @departments =YAML.load(IO.read(File.join(Rails.root, 'orgchart.yml'))) 
   end
 
   def show
@@ -19,6 +22,10 @@ class RequestController < ApplicationController
 
   def approve_requests
     @request=Request.find(params[:id])
+    if current_user.role == "Manager"
+      @request.state == "Budget"
+    else
+    end
     redirect_to request_index_path
   end
 
