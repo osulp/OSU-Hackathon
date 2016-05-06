@@ -7,149 +7,156 @@ OSULP-Admin:
   email: faye.chadwell@oregonstate.edu
   title: Donald & Delpha Campbell University Librarian & OSU Press Director
   classification: Professor
-
-  - name: Don Frier
+  members:
+  - 
+    name: Don Frier
     email: don.frier@oregonstate.edu
     title: Executive Assistant to the University Librarian
     classification: Professional Faculty
-
-  - name: Korey Jackson
+  -  
+    name: Korey Jackson
     email: korey.jackson@oregonstate.edu
     title: Gray Family Chair for Innovative Library Services
     classification: Professional Faculty
-
-  - name: Daniel Moret
+  -  
+    name: Daniel Moret
     email: daniel.moret@oregonstate.edu
     title: Communications Specialist
     classification: Professional Faculty
-
-  - OSU-Press:
-    org: Oregon State Universitiy Press
-    name: Tom Booth
-    email: thomas.booth@oregonstate.edu
-    title: Associate Director
-    classification: Professional Faculty
-
-  - AUL-RSC:
-    org: Research & Scholarly Communication
-    name: Vacant
-    email:
-    title: Associate University Librarian for Research & Scholarly Communication
-    classification: Associate Professor
-
-    - ETS:
-      org: Emerging Technologies and Services
-      name: Margaret Mellinger
-      email: margaret.mellinger@oregonstate.edu
-      title: Director
-      classification: Associate Professor
-      
-      - name: Mike Eaton
-        email: michael.eaton@oregonstate.edu
-        title: User Experience Manager
-        classification: Professional Faculty
-
-      - name: Josh Gum
-        email: josh.gum@oregonstate.edu
-        title: Analyst Programmer III
-        classification: Classified
-
-      - name: Gregorio German Luis Ramirez
-        email: Gregorio.LuisRamirez@oregonstate.edu
-        title: Analyst Programmer II
-        classification: Classified
-
-      - name: Brandon Straley
-        email: brandon.straley@oregonstate.edu
-        title: Analyst Programmer II
-        classification: Classified
-
-      - name: Ryan Wick
-        email: ryan.wick@oregonstate.edu
-        title: Analyst Programmer I
-        classification: Classified
-
-      - name: Dan Moore
-        email: dan.moore@oregonstate.edu
-        title: Discovery Services Librarian
-        classification: Assistant Professor
-        fundstatus: higher
-
-    - SCARC:
-      org: Special Collections and Archives Research Center
-      name: Larry Landis
-      email: larry.landis@oregonstate.edu
-      title: Director
+  - 
+    OSU-Press:
+      org: Oregon State Universitiy Press
+      name: Tom Booth
+      email: thomas.booth@oregonstate.edu
+      title: Associate Director
       classification: Professional Faculty
-
-      - name: Elizabeth Nielsen
-        email: elizabeth.nielsen@oregonstate.edu
-        title: University Archivist
-        classification: Professional Faculty
-
-        - name: Karl McCreary
-          email: karl.mccreary@oregonstate.edu
-          title: Collections Archivist
-          classification: Professional Faculty
-
-      - name: Anne Bahde
-        email: anne.bahde@oregonstate.edu
-        title: History of Science Librarian
-        classification: Assistant Professor
-        fundstatus: higher
-
-        - name: Trevor Sandgathe
-          email: trevor.sandgathe@oregonstate.edu
-          title: Archivist
-          classification: Classified
-
-      - name: Natalia Fernández
-        email: natalia.fernandez@oregonstate.edu
-        title: Oregon Multicultural Librarian
-        classification: Assistant Professor
-        fundstatus: higher
-
-      - name: Tiah Edmunson-Morton
-        email: tiah.edmunson-morton@oregonstate.edu
-        title: Instructor and Outreach Archivist
-        classification: Instructor 
-
-      - name: Ruth Vondracek
-        email: ruth.vondracek@oregonstate.edu
-        title: Art, Anthropology, & Foreign Languages Librarian
-        classification: Associate Professor
-
-      - name: Chris Petersen
-        email: chris.petersen@oregonstate.edu
-        title: Senior Faculty Research Assistant
-        classification: Professional Faculty
-
-      - name: Ryan Wick
-        email: ryan.wick@oregonstate.edu
-        title: Analyst Programmer I
-        classification: Classified
-
-    - CDSS:
-      org: Center for Digital Scholarship & Services
-      name: Michael Boock
-      email: michael.boock@oregonstate.edu
-      title: Department Head
+  -  
+    AUL-RSC:
+      org: Research & Scholarly Communication
+      name: Vacant
+      email:
+      title: Associate University Librarian for Research & Scholarly Communication
       classification: Associate Professor
-
-  - AUL-LE:
+      members:
+      -
+        ETS:
+          org: Emerging Technologies and Services
+          name: Margaret Mellinger
+          email: margaret.mellinger@oregonstate.edu
+          title: Director
+          classification: Associate Professor
+          members:
+          -  
+            name: Mike Eaton
+            email: michael.eaton@oregonstate.edu
+            title: User Experience Manager
+            classification: Professional Faculty
+          - 
+            name: Josh Gum
+            email: josh.gum@oregonstate.edu
+            title: Analyst Programmer III
+            classification: Classified
+          -
+            name: Gregorio German Luis Ramirez
+            email: Gregorio.LuisRamirez@oregonstate.edu
+            title: Analyst Programmer II
+            classification: Classified
+          - 
+            name: Brandon Straley
+            email: brandon.straley@oregonstate.edu
+            title: Analyst Programmer II
+            classification: Classified
+          - 
+            name: Ryan Wick
+            email: ryan.wick@oregonstate.edu
+            title: Analyst Programmer I
+            classification: Classified
+          - 
+            name: Dan Moore
+            email: dan.moore@oregonstate.edu
+            title: Discovery Services Librarian
+            classification: Assistant Professor
+            fundstatus: higher
+      - 
+        SCARC:
+          org: Special Collections and Archives Research Center
+          name: Larry Landis
+          email: larry.landis@oregonstate.edu
+          title: Director
+          classification: Professional Faculty
+          members:
+          - 
+            name: Elizabeth Nielsen
+            email: elizabeth.nielsen@oregonstate.edu
+            title: University Archivist
+            classification: Professional Faculty
+            members:
+            - 
+              name: Karl McCreary
+              email: karl.mccreary@oregonstate.edu
+              title: Collections Archivist
+              classification: Professional Faculty
+          - 
+            name: Anne Bahde
+            email: anne.bahde@oregonstate.edu
+            title: History of Science Librarian
+            classification: Assistant Professor
+            fundstatus: higher
+            members:
+            - 
+              name: Trevor Sandgathe
+              email: trevor.sandgathe@oregonstate.edu
+              title: Archivist
+              classification: Classified
+          - 
+            name: Natalia Fernández
+            email: natalia.fernandez@oregonstate.edu
+            title: Oregon Multicultural Librarian
+            classification: Assistant Professor
+            fundstatus: higher
+          -
+            name: Tiah Edmunson-Morton
+            email: tiah.edmunson-morton@oregonstate.edu
+            title: Instructor and Outreach Archivist
+            classification: Instructor 
+          - 
+            name: Ruth Vondracek
+            email: ruth.vondracek@oregonstate.edu
+            title: Art, Anthropology, & Foreign Languages Librarian
+            classification: Associate Professor
+          - 
+            name: Chris Petersen
+            email: chris.petersen@oregonstate.edu
+            title: Senior Faculty Research Assistant
+            classification: Professional Faculty
+          -
+            name: Ryan Wick
+            email: ryan.wick@oregonstate.edu
+            title: Analyst Programmer I
+            classification: Classified
+      -
+        CDSS:
+          org: Center for Digital Scholarship & Services
+          name: Michael Boock
+          email: michael.boock@oregonstate.edu
+          title: Department Head
+          classification: Associate Professor
+  -
+    AUL-LE:
     org: Learning & Engagement
     name: Cheryl Middleton
     email: cheryl.middleton@oregonstate.edu
     title: Associate University Librarian for Learning & Engagement
     classification: Associate Professor
-
-    - LEAD:
-
-    - TED:
-
-    - Guin:
-
-    - name: M. Brooke Robertshaw
+    members:
+    - 
+      LEAD:
+    - 
+      TED:
+    - 
+      Guin:
+    - 
+      name: M. Brooke Robertshaw
       email: brooke.robertshaw@oregonstate.edu
       title: Assessment Librarian
       classification: Assistant Professor
