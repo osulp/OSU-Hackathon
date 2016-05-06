@@ -1,3 +1,5 @@
+require 'yaml'
+
 class RequestController < ApplicationController
   respond_to :html, :json
 
@@ -7,7 +9,7 @@ class RequestController < ApplicationController
 
   def new
     @request = Request.new
-    @department = Yaml.load(Rails.root.join("orgchart.yml"))
+    @departments =YAML.load(IO.read(File.join(Rails.root, 'orgchart.yml'))) 
   end
 
   def show
