@@ -69,12 +69,60 @@ OSULP-Admin:
         title: Analyst Programmer I
         classification: Classified
 
+      - name: Dan Moore
+        email: dan.moore@oregonstate.edu
+        title: Discovery Services Librarian
+        classification: Assistant Professor
+        fundstatus: higher
+
     - SCARC:
       org: Special Collections and Archives Research Center
       name: Larry Landis
       email: larry.landis@oregonstate.edu
       title: Director
       classification: Professional Faculty
+
+      - name: Elizabeth Nielsen
+        email: elizabeth.nielsen@oregonstate.edu
+        title: University Archivist
+        classification: Professional Faculty
+
+        - name: Karl McCreary
+          email: karl.mccreary@oregonstate.edu
+          title: Collections Archivist
+          classification: Professional Faculty
+
+      - name: Anne Bahde
+        email: anne.bahde@oregonstate.edu
+        title: History of Science Librarian
+        classification: Assistant Professor
+        fundstatus: higher
+
+        - name: Trevor Sandgathe
+          email: trevor.sandgathe@oregonstate.edu
+          title: Archivist
+          classification: Classified
+
+      - name: Natalia Fernández
+        email: natalia.fernandez@oregonstate.edu
+        title: Oregon Multicultural Librarian
+        classification: Assistant Professor
+        fundstatus: higher
+
+      - name: Tiah Edmunson-Morton
+        email: tiah.edmunson-morton@oregonstate.edu
+        title: Instructor and Outreach Archivist
+        classification: Instructor 
+
+      - name: Ruth Vondracek
+        email: ruth.vondracek@oregonstate.edu
+        title: Art, Anthropology, & Foreign Languages Librarian
+        classification: Associate Professor
+
+      - name: Chris Petersen
+        email: chris.petersen@oregonstate.edu
+        title: Senior Faculty Research Assistant
+        classification: Professional Faculty
 
       - name: Ryan Wick
         email: ryan.wick@oregonstate.edu
@@ -105,8 +153,5 @@ OSULP-Admin:
       email: brooke.robertshaw@oregonstate.edu
       title: Assessment Librarian
       classification: Assistant Professor
-
-
-
 
 ...
