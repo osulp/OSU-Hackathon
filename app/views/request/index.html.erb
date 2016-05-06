@@ -1,14 +1,51 @@
-<h1>Here are all requests</h1>
 <% if @requests.empty? %>
   <p> No requests found </p>
 <% else %>
-  <% @requests.each do |request| %>
-    <p><%= request.conference %></p>
-    <p><%= request.state %></p>
+  <div class="panel">
+    <div class="col-md-3">
+      <div class="sm-st clearfix new-request">
+        <span class="sm-st-icon st-green"><i class="fa fa-file-o"></i></span>
+        <div class="sm-st-info">
+          <span>New</span>
+          Request
+        </div>
+      </div>
+    </div>
+    <div class="panel-body table-responsive">
+      <div class="box-tools m-b-15">
+        <div class="input-group">
+          <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search">
+          <div class="input-group-btn">
+            <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <table class="table table-hover">
+        <tbody><tr>
+            <th>ID</th>
+            <th>User</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Activity</th>
+          </tr>
+          <% @requests.each do |request| %>
+            <tr>
+              <td><%= request.id %></td>
+              <td><%= request.user %></td>
+              <td><%= request.created_at %></td>
+              <td><span class="label label-success"><%= request.state %></span></td>
+              <td><%= request.conference %></td>
+            </tr>
+          <% end %>
+        </tbody></table>
+    </div>
+  </div>
 
-  <% end%>
+  <script type="text/javascript">
+$(document).ready(function(){
+  $(document).on("click", ".new-request", function(e){
+    window.location.href = '<%= new_request_path %>';
+  });
+});
+  </script>
 <% end %>
-
-<%= link_to "New Travel Request", new_request_path %>
-<%= link_to "View Non-Reviewed Requests", request_submitted_path %>
-
