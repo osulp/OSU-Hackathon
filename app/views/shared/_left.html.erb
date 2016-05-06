@@ -2,14 +2,26 @@
   <!-- sidebar: style can be found in sidebar.less -->
   <section class="sidebar">
     <!-- Sidebar user panel -->
-    <!--<div class="user-panel">-->
-      <!--<div class="pull-left image">-->
-        <!--<%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>-->
-      <!--</div>-->
-      <!--<div class="pull-left info">-->
-        <!--<p>Hello, Jane</p>-->
-      <!--</div>-->
-    <!--</div>-->
+    <div class="user-panel">
+      <% if current_user.blank? %>
+        <p><a href="/users/sign_in">Login</a></p>
+
+      <% else %>
+
+        <div class="pull-left image">
+          <%= image_tag("26115.jpg", :alt => "user image", :class => "img-circle") %>
+        </div>
+        <div class="pull-left info">
+
+          <p>Hello <%= current_user.display_name %></p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+
+        </div>
+
+      <% end %>
+    </div>
+
+    <% if !current_user.blank? %>
     <!-- search form -->
     <!--<form action="#" method="get" class="sidebar-form">-->
       <!--<div class="input-group">-->
@@ -46,6 +58,8 @@
       </li-->
 
     </ul>
+
+  <% end %>
   </section>
   <!-- /.sidebar -->
 </aside>
