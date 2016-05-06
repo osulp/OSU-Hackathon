@@ -23,3 +23,7 @@
  *= require bootstrap-wysihtml5/bootstrap3-wysihtml5
  *= require style
  */
+
+
+header > .logo { position: fixed; }
+.left-side { position: fixed !important; }
