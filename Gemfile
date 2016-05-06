@@ -51,3 +51,6 @@ group :development do
 end
 
 gem 'devise'
+gem 'rubycas-client', git: 'git://github.com/terrellt/rubycas-client.git', branch: 'master'
+gem 'rubycas-client-rails', :git => 'git://github.com/osulp/rubycas-client-rails.git'
+gem 'devise_cas_authenticatable'
