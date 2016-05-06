@@ -27,3 +27,5 @@
 
 header > .logo { position: fixed; }
 .left-side { position: fixed !important; }
+.skin-black .logo { background-color: #C34500; }
+.skin-black .left-side { background-color: #385E86; }
