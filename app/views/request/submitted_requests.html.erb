@@ -1,0 +1,10 @@
+<h1>Here are the non-reviewed requests</h1>
+<% if @requests.empty? %>
+  <p> No requests found </p>
+<% else %>
+  <% @requests.each do |request| %>
+    <p><%= request.conference %><%= link_to "Approve Request", "/request/approve/#{request.id}" %></p>
+    <p><%= request.state %></p>
+  <% end%>
+<% end %>
+

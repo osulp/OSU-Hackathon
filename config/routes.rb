@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   get 'request/index'
   get "/login", :to => 'sessions#new'
   get "/logout", :to => 'sessions#logout'
+
+  get 'request/submitted', :to => "request#submitted_requests"
+  get 'request/approve/:id', :to => "request#approve_requests"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
